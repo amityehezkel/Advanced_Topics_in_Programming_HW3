@@ -1,0 +1,10 @@
+simulation_compositions:
+  simulations:
+    - simulation_config: "smoke_simulation.yaml"
+      mission_configs:
+        - "../../../inputs/mission/small_mission_room.yaml"
+  drone_configs:
+    - "../../../inputs/drone/drone_small.yaml"
+    - "../../../inputs/drone/drone_large.yaml"
+  lidar_configs:
+    - "../../../inputs/lidar/lidar_short.yaml"

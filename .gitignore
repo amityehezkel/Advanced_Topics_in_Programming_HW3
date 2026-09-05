@@ -8,7 +8,7 @@ cmake_install.cmake
 compile_commands.json
 CTestTestfile.cmake
 Testing/
-outputs/
+work/
 tmp/
 # vcpkg generated dependencies
 vcpkg_installed/
